@@ -1,7 +1,7 @@
 
 <template>
   <div
-    class="font-chicle flex flex-col justify-around mx-10 py-5 h-full"
+    class="font-chicle flex flex-col justify-around mx-10 h-full text-center"
     style="color: #fffdd0"
   >
     <h1 class="text-5xl -mb-6">Summer Blowout Richmond 2k22</h1>
@@ -21,30 +21,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-  data() {
-    return {
-      msg: "Hello Vue 3 + Vite",
-    };
-  },
-};
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
